@@ -1,43 +1,52 @@
-import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import { ImageWidget } from "apps/admin/widgets.ts";
+import RoundedIcon from "site/components/ui/RoundedIcon.tsx";
 
-interface Props {
-  href?: string;
-  image?: ImageWidget;
-  alt?: string;
-  width?: number;
-  height?: number;
-  text?: string;
+interface Logo {
+  image: ImageWidget;
+  width: number;
+  height: number;
+  alt: string;
 }
 
-function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
-}: Props) {
+interface Icon {
+  icon: ImageWidget;
+  alt: string;
+  width: number;
+  height: number;
+}
+
+interface SocialMedia {
+  icon: Icon;
+  link: string;
+}
+
+interface FooterProps {
+  logo: Logo;
+  socialMedias: SocialMedia[];
+  text: string;
+}
+
+export default function Footer({ logo, socialMedias, text }: FooterProps) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
+    <footer className="flex flex-col bg-primary pt-12 pb-14">
+      <div className="flex flex-col items-center justify-center w-full max-w-[1440px] mx-auto px-4">
+        <div className="w-full flex flex-col lg:flex-row justify-between border-b border-white border-opacity-25 pb-14">
           <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
+            src={logo.image}
+            alt={logo.alt}
+            width={logo.width}
+            height={logo.height}
+            className="object-contain"
           />
-        )}
-      </a>
-    </div>
+          <div className="flex gap-2">
+            {socialMedias.map((item) => (
+              <RoundedIcon icon={item.icon} link={item.link} type={"gray"} />
+            ))}
+          </div>
+        </div>
+        <span className="mt-4 text-white text-sm font-extralight">{text}</span>
+      </div>
+    </footer>
   );
 }
-
-export default Footer;

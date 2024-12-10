@@ -2,17 +2,39 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
+import * as $$$$$$$$$0 from "./actions/sendEmail.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$$$$0 from "./sections/Footer.tsx";
-import * as $$$$$$1 from "./sections/ItWorks.tsx";
-import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+import * as $$$0 from "./loaders/sendgrid/sendgridConfig.ts";
+import * as $$$$$$0 from "./sections/Advantages.tsx";
+import * as $$$$$$1 from "./sections/Contact.tsx";
+import * as $$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$3 from "./sections/Header.tsx";
+import * as $$$$$$4 from "./sections/OurHistory.tsx";
+import * as $$$$$$5 from "./sections/Partnerships.tsx";
+import * as $$$$$$6 from "./sections/Services.tsx";
+import * as $$$$$$7 from "./sections/Technologies.tsx";
+import * as $$$$$$8 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$9 from "./sections/WhatSayAboutUs.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/sendgrid/sendgridConfig.ts": $$$0,
+  },
   "sections": {
-    "site/sections/Footer.tsx": $$$$$$0,
-    "site/sections/ItWorks.tsx": $$$$$$1,
-    "site/sections/Theme/Theme.tsx": $$$$$$2,
+    "site/sections/Advantages.tsx": $$$$$$0,
+    "site/sections/Contact.tsx": $$$$$$1,
+    "site/sections/Footer.tsx": $$$$$$2,
+    "site/sections/Header.tsx": $$$$$$3,
+    "site/sections/OurHistory.tsx": $$$$$$4,
+    "site/sections/Partnerships.tsx": $$$$$$5,
+    "site/sections/Services.tsx": $$$$$$6,
+    "site/sections/Technologies.tsx": $$$$$$7,
+    "site/sections/Theme/Theme.tsx": $$$$$$8,
+    "site/sections/WhatSayAboutUs.tsx": $$$$$$9,
+  },
+  "actions": {
+    "site/actions/sendEmail.ts": $$$$$$$$$0,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
