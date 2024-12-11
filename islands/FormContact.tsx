@@ -3,14 +3,14 @@ import { invoke } from "site/runtime.ts";
 import { useState } from "preact/hooks";
 import { CopyEmails, RecipientsEmails } from "site/sections/Contact.tsx";
 
-interface ContactFormIslandProps {
+interface FormContactIslandProps {
   RecipientsEmailsArr: RecipientsEmails[];
   CopyToArr?: CopyEmails[];
   subject: string;
 }
 
-export default function ContactFormIsland(
-  { RecipientsEmailsArr, CopyToArr, subject }: ContactFormIslandProps,
+export default function FormContactIsland(
+  { RecipientsEmailsArr, CopyToArr, subject }: FormContactIslandProps,
 ) {
   const handleSubmit = async (e) => {
     e.preventDefault();

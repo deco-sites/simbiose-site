@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import RoundedIcon from "site/components/ui/RoundedIcon.tsx";
-import ContactFormIsland from "../islands/ContactForm.tsx";
+import FormContactIsland from "site/islands/FormContact.tsx";
 
 interface Icon {
   icon: ImageWidget;
@@ -106,7 +106,7 @@ export default function Contact(
                 </div>
               </div>
             </div>
-            <ContactFormIsland
+            <FormContactIsland
               RecipientsEmailsArr={RecipientsEmailsArr}
               CopyToArr={CopyToArr}
               subject={subject}
