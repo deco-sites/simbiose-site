@@ -63,6 +63,7 @@ export default function Carousel({ testimonials }: CarouselProps) {
           <Image
             src={"/caret-circle-left.png"}
             alt="Arrow Icon"
+            width={100}
             className="cursor-pointer"
             onClick={handlePrev}
           />
@@ -74,8 +75,7 @@ export default function Carousel({ testimonials }: CarouselProps) {
           <Image
             src={"/aspas.png"}
             alt="Aspas Icon"
-            width=""
-            height=""
+            width={100}
             className="absolute top-0 -left-8"
           />
 
@@ -106,8 +106,7 @@ export default function Carousel({ testimonials }: CarouselProps) {
           <Image
             src={"/aspas.png"}
             alt="Aspas Icon"
-            width=""
-            height=""
+            width={100}
             className="absolute bottom-0 -right-8 rotate-180"
           />
         </div>
@@ -117,6 +116,7 @@ export default function Carousel({ testimonials }: CarouselProps) {
           <Image
             src={"/caret-circle-left.png"}
             alt="Arrow Icon"
+            width={100}
             className="cursor-pointer rotate-180"
             onClick={handleNext}
           />
