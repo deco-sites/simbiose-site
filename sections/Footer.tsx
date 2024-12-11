@@ -37,7 +37,7 @@ export default function Footer({ logo, socialMedias, text }: FooterProps) {
             alt={logo.alt}
             width={logo.width ?? 237}
             height={logo.height ?? 41}
-            className="object-contain w-40"
+            className="object-contain w-48"
           />
           <div className="flex gap-2">
             {socialMedias.map((item) => (

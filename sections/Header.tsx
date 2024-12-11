@@ -64,7 +64,7 @@ export default function Header(
             width={logo.desktop.width ?? 200}
             height={logo.desktop.height ?? 34}
             alt={logo.alt}
-            className="hidden lg:flex w-40"
+            className="hidden lg:flex w-48"
           />
           <Image
             src={logo.mobile.src}
