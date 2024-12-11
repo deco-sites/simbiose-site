@@ -34,12 +34,12 @@ export default function Technologies(
       >
       </div>
       <div className="bg-primary pb-32 -mb-1">
-        <div className="w-full max-w-[1440px] mx-auto px-4 flex flex-col text-white">
-          <div className="flex flex-col gap-8 mb-8">
+        <div className="w-full max-w-[1440px] mx-auto lg:px-4 flex flex-col text-white">
+          <div className="flex flex-col gap-8 mb-8 px-4 lg:px-0">
             <span className="text-3xl font-semibold">{title}</span>
             <span>{description}</span>
           </div>
-          <div className="flex gap-8 lg:gap-0 overflow-x-scroll scrollbar-none justify-between">
+          <div className="flex px-4 lg:px-0 gap-8 lg:gap-0 overflow-x-scroll scrollbar-none justify-between">
             {cards.map((card) => {
               return (
                 <>

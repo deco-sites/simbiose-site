@@ -36,6 +36,7 @@ export default function TechnologyCard({ title, images }: TechnologyCardProps) {
               alt="Image"
               width={image.width || 100}
               height={image.height}
+              className="transition-transform duration-300 hover:scale-105 hover:custom-glow"
             />
           ))}
         </div>

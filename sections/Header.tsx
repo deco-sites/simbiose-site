@@ -1,8 +1,9 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
+import MenuIcon from "site/islands/MenuIcon.tsx";
 
 /** @titleBy text */
-interface NavOption {
+export interface NavOption {
   text: string;
   link: string;
 }
@@ -50,7 +51,7 @@ export default function Header(
 ) {
   return (
     <header
-      className="flex flex-col bg-primary text-white h-[500px] lg:h-96"
+      className="flex flex-col bg-primary text-white h-[420px] lg:h-96"
       style={{
         clipPath:
           "polygon(100% 0%,0% 0%,0% 96.339%,0% 96.339%,11.559% 98.459%,22.221% 99.691%,32.191% 99.979%,41.676% 99.266%,50.884% 97.496%,60.021% 94.613%,69.294% 90.561%,78.911% 85.284%,89.077% 78.725%,100% 70.828%,100% 0%)",
@@ -61,9 +62,9 @@ export default function Header(
           <Image
             src={logo.desktop.src}
             width={logo.desktop.width ?? 200}
-            height={logo.desktop.height ?? 44}
+            height={logo.desktop.height ?? 34}
             alt={logo.alt}
-            className="hidden lg:flex"
+            className="hidden lg:flex w-40"
           />
           <Image
             src={logo.mobile.src}
@@ -87,13 +88,7 @@ export default function Header(
             ))}
           </nav>
 
-          <Image
-            src={"/hamburger.png"}
-            width=""
-            height=""
-            alt={"Hamburguer menu icon"}
-            className="flex lg:hidden cursor-pointer"
-          />
+          <MenuIcon navOptions={navOptions} />
         </div>
 
         <div className="flex flex-col lg:flex-row justify-between">

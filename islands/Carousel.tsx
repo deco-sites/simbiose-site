@@ -113,7 +113,7 @@ export default function Carousel({ testimonials }: CarouselProps) {
         </div>
 
         {/* Botão próximo */}
-        <div>
+        <div className="">
           <Image
             src={"/caret-circle-left.png"}
             alt="Arrow Icon"

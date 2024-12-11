@@ -11,7 +11,7 @@
         "desktop": {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1317330d-57b8-4628-895b-05e94fdba44a/simbiose_logo.png",
           "width": 200,
-          "height": 44
+          "height": 34
         },
         "mobile": {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/7f97f1ae-0550-439d-a71d-a13564d97ee9/Logo_branca2.png",
@@ -2159,8 +2159,8 @@
           "icon": {
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1da57f7b-cb30-482e-ab7a-4ada0e04fb52/facebook-circular-logo-1.png",
             "alt": "Facebook Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.facebook.com/simbioseventures"
         },
@@ -2168,8 +2168,8 @@
           "icon": {
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/76209cd3-27ae-4d73-bfa8-571b7020fb35/linkedin-(1)-2.png",
             "alt": "Linkedin Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.linkedin.com/company/simbioseventures/posts/?feedView=all"
         },
@@ -2177,8 +2177,8 @@
           "icon": {
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e6c87daa-f66c-4697-a36a-aeaaf23b26af/youtube-1.png",
             "alt": "Youtube Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.youtube.com/@simbioseventures7966"
         },
@@ -2186,8 +2186,8 @@
           "icon": {
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1d5c4c4a-d310-46c6-83b9-4ab4abd4ab31/instagram-2.png",
             "alt": "Instagram Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.instagram.com/simbiose.ventures/"
         }
@@ -2317,8 +2317,8 @@
         "117": "g",
         "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e0850f22-a668-4b6f-b928-6def592a48a0/whatsapp-2.png",
         "alt": "Whatsapp Icon",
-        "width": 26,
-        "height": 26,
+        "width": 21,
+        "height": 21,
         "link": "https://w.app/a70Qvf"
       },
       "emailIcon": {
@@ -2438,8 +2438,8 @@
         "113": "g",
         "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/4d824fd0-9c94-498f-b250-1ec92f650f1b/copy-1.png",
         "alt": "Copy Icon",
-        "width": 26,
-        "height": 26,
+        "width": 21,
+        "height": 21,
         "link": "mailto:comercial@simbioseventures.com"
       },
       "subject": "Formulário Preenchido",
@@ -2453,9 +2453,9 @@
       "__resolveType": "site/sections/Footer.tsx",
       "logo": {
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1317330d-57b8-4628-895b-05e94fdba44a/simbiose_logo.png",
-        "width": 180,
-        "height": 15,
-        "alt": "Simbiose Logo"
+        "alt": "Simbiose Logo",
+        "width": 237,
+        "height": 41
       },
       "socialMedias": [
         {
@@ -2580,8 +2580,8 @@
             "117": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/274de767-d2d1-4e10-bd77-25c6bdc91698/facebook-2.png",
             "alt": "Facebook Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.facebook.com/simbioseventures"
         },
@@ -2707,8 +2707,8 @@
             "117": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/0b167b8e-4729-4f56-a357-17ede7671633/linkedin-2.png",
             "alt": "Linkedin Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.linkedin.com/company/simbioseventures/posts/?feedView=all"
         },
@@ -2835,8 +2835,8 @@
             "118": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/c9bf4378-344b-4841-9da7-9963d39ca601/instagram-3.png",
             "alt": "Instagram Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://www.instagram.com/simbiose.ventures/"
         },
@@ -2958,8 +2958,8 @@
             "113": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/5fc9b113-4bf9-41fa-9b7c-7562772bbfb6/mail-2.png",
             "alt": "Email Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "mailto:comercial@simbioseventures.com"
         },
@@ -3085,8 +3085,8 @@
             "117": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/3c91166e-0c74-452a-83a7-c14102011927/whatsapp-3.png",
             "alt": "Whatsapp Icon",
-            "width": 26,
-            "height": 26
+            "width": 21,
+            "height": 21
           },
           "link": "https://w.app/a70Qvf"
         },
@@ -3211,8 +3211,8 @@
             "116": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/cdbf5518-e483-47ff-ba5b-3e1282ca6268/youtube-2.png",
             "alt": "Youtube Icon",
-            "width": 25,
-            "height": 17
+            "width": 21,
+            "height": 14
           },
           "link": "https://www.youtube.com/@simbioseventures7966"
         }

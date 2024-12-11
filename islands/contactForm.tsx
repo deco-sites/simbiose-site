@@ -96,7 +96,7 @@ export default function ContactFormIsland(
 
       <button
         onClick={handleSubmit}
-        className="btn relative mt-16 group transition-all inline-flex items-center justify-start overflow-hidden bg-primary hover:bg-primary text-white py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold"
+        className="btn relative mt-4 lg:mt-16 group transition-all inline-flex items-center justify-start overflow-hidden bg-primary hover:bg-primary text-white py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold"
       >
         <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
         </span>

@@ -40,6 +40,7 @@ export default function Partnerships(
                 alt={logo.alt}
                 width={logo.width || 100}
                 height={logo.height}
+                className="transition-transform duration-300 hover:scale-105 hover:custom-glow"
               />
             ))}
           </div>

@@ -4,7 +4,9 @@
 
 import * as $_app from "./routes/_app.tsx";
 import * as $Carousel from "./islands/Carousel.tsx";
-import * as $contactForm from "./islands/contactForm.tsx";
+import * as $ContactForm from "./islands/ContactForm.tsx";
+import * as $MenuIcon from "./islands/MenuIcon.tsx";
+import * as $OurHistoryIsland from "./islands/OurHistoryIsland.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -13,7 +15,9 @@ const manifest = {
   },
   islands: {
     "./islands/Carousel.tsx": $Carousel,
-    "./islands/contactForm.tsx": $contactForm,
+    "./islands/ContactForm.tsx": $ContactForm,
+    "./islands/MenuIcon.tsx": $MenuIcon,
+    "./islands/OurHistoryIsland.tsx": $OurHistoryIsland,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

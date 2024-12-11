@@ -20,13 +20,13 @@ export default function Advantages(
   return (
     <>
       <div className="bg-primary text-white">
-        <div className="w-full max-w-[1440px] mx-auto px-4">
-          <div className="flex flex-col justify-center items-center gap-12 pb-16">
+        <div className="w-full max-w-[1440px] mx-auto lg:px-4">
+          <div className="flex flex-col justify-center items-center gap-12 pb-16 px-4 lg:px-0">
             <span className="font-bold text-xl">{title}</span>
             <span>{description}</span>
           </div>
 
-          <div className="flex overflow-x-scroll scrollbar-none lg:grid grid-cols-4 grid-rows-2 gap-16">
+          <div className="px-4 lg:px-0 flex gap-4 overflow-x-scroll scrollbar-none lg:grid grid-cols-4 grid-rows-2 lg:gap-16">
             {cards.map((card) => (
               <AdvantageCard
                 image={card.image}

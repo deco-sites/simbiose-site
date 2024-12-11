@@ -1,5 +1,6 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import OurHistoryPhoto from "site/components/ui/OurHistoryPhoto.tsx";
+import OurHistoryPhoto from "site/islands/OurHistoryIsland.tsx";
+//import OurHistoryPhoto from "site/components/ui/OurHistoryPhoto.tsx";
 
 /** @titleBy title */
 interface Statistic {

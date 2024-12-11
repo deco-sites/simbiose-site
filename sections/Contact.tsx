@@ -1,14 +1,13 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import RoundedIcon from "site/components/ui/RoundedIcon.tsx";
-import ContactFormIsland from "site/islands/contactForm.tsx";
+import ContactFormIsland from "../islands/ContactForm.tsx";
 
 interface Icon {
   icon: ImageWidget;
   alt: string;
   width: number;
   height: number;
-  link?: string;
 }
 
 interface SocialMedia {
@@ -63,7 +62,7 @@ export default function Contact(
               <div className="flex flex-col">
                 <span>Telefone:</span>
                 <div className="flex items-center gap-4">
-                  <span className="text-xl">{tel}</span>
+                  <span className="">{tel}</span>
                   <a href={telIcon.link} target="_blank">
                     <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
                       <Image
@@ -80,7 +79,7 @@ export default function Contact(
                 <span>E-mail:</span>
 
                 <div className="flex items-center gap-4">
-                  <span className="text-xl">{email}</span>
+                  <span className="">{email}</span>
                   <a href="mailto:comercial@simbioseventures.com">
                     <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
                       <Image
@@ -94,17 +93,15 @@ export default function Contact(
                 </div>
               </div>
 
-              <div className="mt-8">
+              <div className="lg:mt-8">
                 <span>Redes Sociais:</span>
-                <div className="flex gap-4">
+                <div className="flex justify-center lg:justify-start gap-4">
                   {socialMedias.map((item) => (
-                    <a href={item.link}>
-                      <RoundedIcon
-                        icon={item.icon}
-                        link={item.link}
-                        type={"blue"}
-                      />
-                    </a>
+                    <RoundedIcon
+                      icon={item.icon}
+                      link={item.link}
+                      type={"blue"}
+                    />
                   ))}
                 </div>
               </div>
