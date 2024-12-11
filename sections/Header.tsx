@@ -35,7 +35,6 @@ interface HeaderProps {
   headerText: string;
   principalWord: string;
   buttonsText: string;
-  contactButton: CTA;
   consultancyButton: CTA;
 }
 
@@ -46,7 +45,6 @@ export default function Header(
     headerText,
     principalWord,
     buttonsText,
-    contactButton,
     consultancyButton,
   }: HeaderProps,
 ) {
@@ -59,18 +57,18 @@ export default function Header(
       }}
     >
       <div className="w-full max-w-[1440px] mx-auto px-4">
-        <div className="flex justify-between items-center py-16">
+        <div className="flex justify-between items-center py-10 lg:pt-16 lg:pb-20">
           <Image
             src={logo.desktop.src}
-            width={logo.desktop.width}
-            height={logo.desktop.height}
+            width={logo.desktop.width ?? 200}
+            height={logo.desktop.height ?? 44}
             alt={logo.alt}
             className="hidden lg:flex"
           />
           <Image
             src={logo.mobile.src}
-            width={logo.mobile.width}
-            height={logo.mobile.height}
+            width={logo.mobile.width ?? 31}
+            height={logo.mobile.height ?? 31}
             alt={logo.alt}
             className="flex lg:hidden"
           />
@@ -78,7 +76,13 @@ export default function Header(
           <nav className="hidden lg:flex gap-14">
             {navOptions.map((item) => (
               <a href={item.link}>
-                <span>{item.text}</span>
+                <p class="group relative w-fit">
+                  <span>{item.text}</span>
+                  <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-third-blue group-hover:w-3/6">
+                  </span>
+                  <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-0.5 bg-third-blue group-hover:w-3/6">
+                  </span>
+                </p>
               </a>
             ))}
           </nav>
@@ -102,15 +106,14 @@ export default function Header(
           </div>
 
           <div className="flex flex-col gap-2 items-center">
-            <div className="flex gap-4 mt-12 lg:mt-0">
-              <a href={contactButton.link}>
-                <button className="bg-gray1 text-neutral py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold">
-                  {contactButton.text}
-                </button>
-              </a>
+            <div className="flex justify-center mt-12 lg:mt-0">
               <a href={consultancyButton.link}>
-                <button className="bg-gray1 text-neutral py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold">
-                  {consultancyButton.text}
+                <button className="btn relative  group transition-all inline-flex items-center justify-start overflow-hidden bg-gray1 text-neutral py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold">
+                  <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
+                  </span>
+                  <span className="relative w-full text-left transition-colors duration-300 ease-in-out group-hover:text-white">
+                    {consultancyButton.text}
+                  </span>
                 </button>
               </a>
             </div>

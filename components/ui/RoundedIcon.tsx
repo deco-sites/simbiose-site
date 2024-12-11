@@ -16,7 +16,7 @@ interface RoundedIconProps {
 
 export default function RoundedIcon({ icon, link, type }: RoundedIconProps) {
   return (
-    <a href={link}>
+    <a href={link} target="_blank">
       <div
         className={`${
           type === "blue" ? "bg-primary" : "bg-gray1"

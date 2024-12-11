@@ -35,8 +35,8 @@ export default function Footer({ logo, socialMedias, text }: FooterProps) {
           <Image
             src={logo.image}
             alt={logo.alt}
-            width={logo.width}
-            height={logo.height}
+            width={logo.width ?? 180}
+            height={logo.height ?? 34}
             className="object-contain"
           />
           <div className="flex gap-2">
