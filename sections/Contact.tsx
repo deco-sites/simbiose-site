@@ -58,13 +58,13 @@ export default function Contact(
         <div className="flex flex-col gap-4">
           <span className="text-3xl font-semibold">{title}</span>
           <span>{description}</span>
-          <div className="flex flex-col lg:flex-row gap-36 mt-12">
+          <div className="flex flex-col lg:flex-row gap-8 lg:gap-36 mt-12">
             <div className="flex flex-col justify-center">
               <div className="flex flex-col">
                 <span>Telefone:</span>
                 <div className="flex items-center gap-4">
                   <span className="text-xl">{tel}</span>
-                  <a href={"#"}>
+                  <a href={telIcon.link} target="_blank">
                     <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
                       <Image
                         src={telIcon.icon}
@@ -81,7 +81,7 @@ export default function Contact(
 
                 <div className="flex items-center gap-4">
                   <span className="text-xl">{email}</span>
-                  <a href={"#"}>
+                  <a href="mailto:comercial@simbioseventures.com">
                     <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
                       <Image
                         src={emailIcon.icon}

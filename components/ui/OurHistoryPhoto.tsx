@@ -49,7 +49,7 @@ export default function OurHistoryPhoto(
       </div>
       <div className="flex gap-2 lg:gap-10">
         {statistics.slice(1).map((item) => (
-          <div className="bg-primary rounded-full w-32 h-32 lg:w-36 lg:h-36 text-white flex flex-col items-center justify-center gap-px">
+          <div className="bg-primary hover:scale-125 duration-300 rounded-full w-32 h-32 lg:w-36 lg:h-36 text-white flex flex-col items-center justify-center gap-px">
             <span className="text-3xl font-semibold">+{item.number}</span>
             <span className="capitalize whitespace-pre-line text-center">
               {item.title.replace(" ", "\n")}

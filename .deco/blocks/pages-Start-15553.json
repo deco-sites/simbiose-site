@@ -46,7 +46,7 @@
       },
       "consultancyButton": {
         "text": "Quero uma consultoria",
-        "link": "#contato"
+        "link": "#consultoria"
       }
     },
     {
@@ -83,6 +83,16 @@
           "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/d7728da2-f79c-4f07-987a-9a3da0ed7c38/Vector-(1).png",
           "title": "Gestão de Servidores",
           "description": "Gerenciamento completo e seguro de servidores para garantir a disponibilidade e performance das suas aplicações."
+        },
+        {
+          "title": "Manutenção de Sistemas Legados",
+          "description": " Modernizamos funcionalidades e garantimos desempenho sem comprometer a base que sustenta o seu negócio.",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/ae62a843-253c-41e8-8da7-ef213069c5ef/legacy-system.png"
+        },
+        {
+          "title": "Soluções de IA",
+          "description": "Implemente soluções inteligentes como chatbots baseados no ChatGPT e outras tecnologias de IA para melhorar a experiência do cliente.",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/6a094fb8-9abb-4cc8-ab97-132948204a62/bot.png"
         }
       ],
       "actionCard": {
@@ -2136,7 +2146,52 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Consultancy.tsx",
+      "title": "Problemas com software em pleno 2024?",
+      "description": "<p>Impulsione seu faturamento em <strong>menos de 90 dias</strong> com nossas <strong>Soluções Sob Demanda!</strong> </p><p></p><p>Em apenas <strong>30 minutos</strong> traremos soluções que já geraram resultados rápidos e expressivos para negócios como o seu.</p>",
+      "video": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/fda8656a-ca77-48bd-8a8a-8b64828b3cb5/Simbiose-Ventures.mp4",
+      "buttonText": "Agende Agora"
+    },
+    {
       "__resolveType": "site/sections/Contact.tsx",
+      "socialMedias": [
+        {
+          "icon": {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1da57f7b-cb30-482e-ab7a-4ada0e04fb52/facebook-circular-logo-1.png",
+            "alt": "Facebook Icon",
+            "width": 26,
+            "height": 26
+          },
+          "link": "https://www.facebook.com/simbioseventures"
+        },
+        {
+          "icon": {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/76209cd3-27ae-4d73-bfa8-571b7020fb35/linkedin-(1)-2.png",
+            "alt": "Linkedin Icon",
+            "width": 26,
+            "height": 26
+          },
+          "link": "https://www.linkedin.com/company/simbioseventures/posts/?feedView=all"
+        },
+        {
+          "icon": {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e6c87daa-f66c-4697-a36a-aeaaf23b26af/youtube-1.png",
+            "alt": "Youtube Icon",
+            "width": 26,
+            "height": 26
+          },
+          "link": "https://www.youtube.com/@simbioseventures7966"
+        },
+        {
+          "icon": {
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1d5c4c4a-d310-46c6-83b9-4ab4abd4ab31/instagram-2.png",
+            "alt": "Instagram Icon",
+            "width": 26,
+            "height": 26
+          },
+          "link": "https://www.instagram.com/simbiose.ventures/"
+        }
+      ],
       "title": "Entre em contato",
       "description": "Queremos ouvir você. Entre em contato conosco em um dos canais abaixo!",
       "tel": "+55 (31) 98485-3252",
@@ -2384,47 +2439,10 @@
         "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/4d824fd0-9c94-498f-b250-1ec92f650f1b/copy-1.png",
         "alt": "Copy Icon",
         "width": 26,
-        "height": 26
+        "height": 26,
+        "link": "mailto:comercial@simbioseventures.com"
       },
-      "socialMedias": [
-        {
-          "icon": {
-            "alt": "Facebook Icon",
-            "width": 26,
-            "height": 26,
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1da57f7b-cb30-482e-ab7a-4ada0e04fb52/facebook-circular-logo-1.png"
-          },
-          "link": "#"
-        },
-        {
-          "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/76209cd3-27ae-4d73-bfa8-571b7020fb35/linkedin-(1)-2.png",
-            "alt": "Linkedin Icon",
-            "width": 26,
-            "height": 26
-          },
-          "link": "#"
-        },
-        {
-          "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e6c87daa-f66c-4697-a36a-aeaaf23b26af/youtube-1.png",
-            "alt": "Youtube Icon",
-            "width": 26,
-            "height": 26
-          },
-          "link": "#"
-        },
-        {
-          "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1d5c4c4a-d310-46c6-83b9-4ab4abd4ab31/instagram-2.png",
-            "alt": "Instagram Icon",
-            "width": 26,
-            "height": 26
-          },
-          "link": "#"
-        }
-      ],
-      "subject": "Teste",
+      "subject": "Formulário Preenchido",
       "RecipientsEmailsArr": [
         {
           "email": "erick.nascimento@simbioseventures.com"
@@ -2565,7 +2583,7 @@
             "width": 26,
             "height": 26
           },
-          "link": "#"
+          "link": "https://www.facebook.com/simbioseventures"
         },
         {
           "icon": {
@@ -2692,7 +2710,7 @@
             "width": 26,
             "height": 26
           },
-          "link": "#"
+          "link": "https://www.linkedin.com/company/simbioseventures/posts/?feedView=all"
         },
         {
           "icon": {
@@ -2820,7 +2838,7 @@
             "width": 26,
             "height": 26
           },
-          "link": "#"
+          "link": "https://www.instagram.com/simbiose.ventures/"
         },
         {
           "icon": {
@@ -2943,7 +2961,7 @@
             "width": 26,
             "height": 26
           },
-          "link": "#"
+          "link": "mailto:comercial@simbioseventures.com"
         },
         {
           "icon": {
@@ -3193,10 +3211,10 @@
             "116": "g",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/cdbf5518-e483-47ff-ba5b-3e1282ca6268/youtube-2.png",
             "alt": "Youtube Icon",
-            "width": 26,
-            "height": 26
+            "width": 25,
+            "height": 17
           },
-          "link": "#"
+          "link": "https://www.youtube.com/@simbioseventures7966"
         }
       ],
       "text": "Simbiose © 2024. Todos os direitos reservados"
