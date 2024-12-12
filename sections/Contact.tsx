@@ -2,8 +2,9 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import RoundedIcon from "site/components/ui/RoundedIcon.tsx";
 import FormContactIsland from "site/islands/FormContact.tsx";
+import CopyButton from "site/islands/CopyButton.tsx";
 
-interface Icon {
+export interface Icon {
   icon: ImageWidget;
   alt: string;
   width: number;
@@ -28,7 +29,7 @@ interface ContactProps {
   description: string;
   tel: string;
   email: string;
-  telIcon: Icon;
+  telIcon: SocialMedia;
   emailIcon: Icon;
   socialMedias: SocialMedia[];
 
@@ -61,15 +62,17 @@ export default function Contact(
             <div className="flex flex-col justify-center">
               <div className="flex flex-col">
                 <span>Telefone:</span>
-                <div className="flex items-center gap-4">
-                  <span className="">{tel}</span>
+                <div className="flex flex-row-reverse justify-end lg:flex-row lg:justify-start items-center gap-4">
+                  <a href={`tel:${tel}`}>
+                    <span className="">{tel}</span>
+                  </a>
                   <a href={telIcon.link} target="_blank">
                     <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
                       <Image
-                        src={telIcon.icon}
-                        alt={telIcon.alt}
-                        width={telIcon.width}
-                        height={telIcon.height}
+                        src={telIcon.icon.icon}
+                        alt={telIcon.icon.alt}
+                        width={telIcon.icon.width}
+                        height={telIcon.icon.height}
                       />
                     </div>
                   </a>
@@ -78,18 +81,9 @@ export default function Contact(
               <div className="flex flex-col">
                 <span>E-mail:</span>
 
-                <div className="flex items-center gap-4">
+                <div className="flex flex-row-reverse justify-end lg:flex-row lg:justify-start items-center gap-4">
                   <span className="">{email}</span>
-                  <a href="mailto:comercial@simbioseventures.com">
-                    <div className="bg-primary rounded-full flex items-center justify-center w-11 h-11">
-                      <Image
-                        src={emailIcon.icon}
-                        alt={emailIcon.alt}
-                        width={emailIcon.width}
-                        height={emailIcon.height}
-                      />
-                    </div>
-                  </a>
+                  <CopyButton icon={emailIcon} />
                 </div>
               </div>
 

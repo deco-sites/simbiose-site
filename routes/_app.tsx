@@ -22,16 +22,6 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
-        {/* Google Tag Manager */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=GTM-PWRNZBW3"
-        >
-        </script>
-        <script>
-          {`window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date()); gtag('config', 'GTM-PWRNZBW3');`}
-        </script>
       </Head>
 
       {/* Rest of Preact tree */}

@@ -104,8 +104,12 @@
     transition-delay: 0.32s;
   }
 
+
+  /*Brilho branco de fundo nos cards de tecnologias e pareceiros*/
   .custom-glow {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
     transition: filter 0.3s ease;
   }
+
+  
 }

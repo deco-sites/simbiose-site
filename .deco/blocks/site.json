@@ -13,6 +13,22 @@
   "global": [
     {
       "__resolveType": "htmx/sections/htmx.tsx"
+    },
+    {
+      "__resolveType": "site/sections/FloatingButton.tsx",
+      "icon": {
+        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/250df18f-d6b3-4ddc-bf22-ce2c614fd139/whatsapp.png",
+        "alt": "Whatsapp Icon",
+        "width": 50,
+        "height": 50
+      },
+      "link": "https://w.app/a70Qvf"
+    },
+    {
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "trackingIds": [
+        "GTM-PWRNZBW3"
+      ]
     }
   ],
   "routes": [

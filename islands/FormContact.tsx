@@ -2,6 +2,9 @@ import Image from "apps/website/components/Image.tsx";
 import { invoke } from "site/runtime.ts";
 import { useState } from "preact/hooks";
 import { CopyEmails, RecipientsEmails } from "site/sections/Contact.tsx";
+import { PhoneMask } from "site/helpers/phoneMask.ts";
+import { emailLengthMask } from "site/helpers/emailMask.ts";
+import { nameMask } from "site/helpers/nameMask.ts";
 
 interface FormContactIslandProps {
   RecipientsEmailsArr: RecipientsEmails[];
@@ -52,15 +55,17 @@ export default function FormContactIsland(
         type="text"
         placeholder="Nome"
         className="bg-white-gray outline-primary rounded-md w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
-        onChange={(e) => setName(e.target.value)}
+        onChange={(e) => setName(nameMask(e.target.value))}
+        value={name}
       />
       <input
         id="email"
         name="email"
-        type="text"
+        type="email"
         placeholder="E-mail"
         className="bg-white-gray outline-primary rounded-md w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
         onChange={(e) => setFilledEmail(e.target.value)}
+        value={filledEmail}
       />
       <input
         id="tel"
@@ -68,8 +73,10 @@ export default function FormContactIsland(
         type="text"
         placeholder="Telefone"
         className="bg-white-gray outline-primary rounded-md w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
-        onChange={(e) => setFilledTel(e.target.value)}
+        onChange={(e) => setFilledTel(PhoneMask(e.target.value))}
+        value={filledTel}
       />
+
       <textarea
         id="message"
         name="message"
@@ -98,7 +105,7 @@ export default function FormContactIsland(
         onClick={handleSubmit}
         className="btn relative mt-4 lg:mt-16 group transition-all inline-flex items-center justify-start overflow-hidden bg-primary hover:bg-primary text-white py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold"
       >
-        <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
+        <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 mr-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
         </span>
         <span className="flex justify-center items-center gap-4 w-full text-left transition-colors duration-300 ease-in-out group-hover:text-white z-10">
           Enviar
