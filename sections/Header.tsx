@@ -104,7 +104,7 @@ export default function Header(
             <div className="flex justify-center mt-12 lg:mt-0">
               <a href={consultancyButton.link}>
                 <button className="btn relative  group transition-all inline-flex items-center justify-start overflow-hidden bg-gray1 text-neutral py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold">
-                  <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
+                  <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 -translate-x-full group-hover:translate-x-0 ease-out duration-500 transition-all translate-y-full mb-9 mr-9 group-hover:ml-0 group-hover:mb-32">
                   </span>
                   <span className="relative w-full text-left transition-colors duration-300 ease-in-out group-hover:text-white">
                     {consultancyButton.text}

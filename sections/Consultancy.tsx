@@ -8,19 +8,22 @@ interface ConsultancyProps {
    */
   description: string;
   video: VideoWidget;
-  buttonText: string;
+  actionText: string;
 }
 
 export default function Consultancy(
-  { title, description, video, buttonText }: ConsultancyProps,
+  { title, description, video, actionText }: ConsultancyProps,
 ) {
   return (
     <>
       <div className="w-full max-w-[1440px] mx-auto px-4" id="consultoria">
-        <div className="flex flex-col lg:flex-row gap-4">
-          <div className="flex flex-col gap-2 lg:min-w-2/5 ">
+        <div className="flex flex-col lg:flex-row gap-12">
+          <div className="flex flex-col gap-2 lg:min-w-2/5 text-justify">
             <span className="text-3xl font-semibold mb-12">{title}</span>
-            <p dangerouslySetInnerHTML={{ __html: description }}></p>
+            <p
+              dangerouslySetInnerHTML={{ __html: description }}
+            >
+            </p>
             {
               /*
             <button className="mt-12 rounded-full bg-primary text-white py-4 px-12 w-fit">
@@ -52,13 +55,9 @@ export default function Consultancy(
             </button>*/
             }
             <div className="w-full flex justify-center">
-              <button className="btn relative mt-16 group transition-all inline-flex items-center justify-start overflow-hidden bg-gray1 text-neutral py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold">
-                <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
-                </span>
-                <span className="relative w-full text-left transition-colors duration-300 ease-in-out group-hover:text-white">
-                  {buttonText}
-                </span>
-              </button>
+              <span className="mt-4 lg:mt-16 text-center text-xl text-second-blue font-semibold">
+                {actionText}
+              </span>
             </div>
           </div>
           <div className="lg:w-3/5">
@@ -69,6 +68,7 @@ export default function Consultancy(
               controls
               autoplay
               muted
+              loop
               playsInline
               controlsList="nodownload"
               className="w-full rounded-xl"
