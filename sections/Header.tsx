@@ -91,8 +91,8 @@ export default function Header(
           <MenuIcon navOptions={navOptions} />
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between">
-          <div className="flex flex-col">
+        <div className="flex flex-col items-center lg:flex-row justify-between">
+          <div className="flex flex-col items-center lg:items-start">
             <span className="text-base">{headerText}</span>
 
             <span className="relative uppercase text-4xl w-fit v-underline">
@@ -112,7 +112,7 @@ export default function Header(
                 </button>
               </a>
             </div>
-            <span className="text-sm">
+            <span className="text-sm text-center">
               {buttonsText}
             </span>
           </div>
