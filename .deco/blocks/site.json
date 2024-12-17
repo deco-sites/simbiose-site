@@ -3,12 +3,12 @@
     "type": "website",
     "jsonLDs": [],
     "noIndexing": false,
-    "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "%s | deco.cx",
+    "description": "Revolucione o seu negócio através da tecnologia!",
+    "titleTemplate": "%s | Simbiose Ventures",
     "descriptionTemplate": "%s | deco.cx",
-    "title": "Start",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/40cc7da0-93d3-4215-9c2a-04b2f86b0a47",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8/22c99167-0018-484f-8b0d-4295a7d771f2"
+    "title": "Início",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/b3088921-2e9f-4d71-adec-6e83b2a03329/Logo_colorida.png",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/fde2f44a-37e4-498a-8252-0c91e95814c6/Logo_Simbiose_867_x_150_1.png"
   },
   "global": [
     {
@@ -22,7 +22,7 @@
         "width": 50,
         "height": 50
       },
-      "link": "https://w.app/a70Qvf"
+      "link": "https://api.whatsapp.com/send?phone=5531984853252&text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20os%20produtos%20da%20Simbiose."
     },
     {
       "__resolveType": "website/sections/Analytics/Analytics.tsx",

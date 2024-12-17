@@ -2444,7 +2444,7 @@
         "alt": "Whatsapp Icon",
         "width": 21,
         "height": 21,
-        "link": "https://w.app/a70Qvf"
+        "link": "https://api.whatsapp.com/send?phone=5531984853252&text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20os%20produtos%20da%20Simbiose."
       },
       "emailIcon": {
         "0": "h",
@@ -3213,7 +3213,7 @@
             "width": 21,
             "height": 21
           },
-          "link": "https://w.app/a70Qvf"
+          "link": "https://api.whatsapp.com/send?phone=5531984853252&text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20os%20produtos%20da%20Simbiose."
         },
         {
           "icon": {
