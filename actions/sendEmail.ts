@@ -41,7 +41,7 @@ const sendEmail = async (
     ],
     "subject": props.subject,
     "from": {
-      "email": "nao-responda@simbioseventures.com",
+      "email": "comercial@simbioseventures.com",
     },
     "content": [
       {
