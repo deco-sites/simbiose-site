@@ -6,6 +6,7 @@ export const nameMask = (name: string): string => {
   name = name.toLowerCase().replace(/(?:^|\s)\S/g, function (char) {
     return char.toUpperCase();
   });
+  console.log("Aqui", name);
 
   return name;
 };
