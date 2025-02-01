@@ -54,7 +54,10 @@ export default function FormContactIsland(
     return <EmailSent setEmailSent={setEmailSent} />;
   } else {
     return (
-      <form className="flex flex-col gap-4 w-full justify-center items-center">
+      <form
+        className="flex flex-col gap-4 w-full justify-center items-center"
+        onSubmit={handleSubmit}
+      >
         <input
           id="name"
           name="name"
@@ -63,6 +66,7 @@ export default function FormContactIsland(
           className="bg-white-gray outline-primary rounded-md w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
           onChange={(e) => setName(nameMask(e.target.value))}
           value={name}
+          required
         />
         <input
           id="email"
@@ -72,6 +76,7 @@ export default function FormContactIsland(
           className="bg-white-gray outline-primary rounded-md w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
           onChange={(e) => setFilledEmail(e.target.value)}
           value={filledEmail}
+          required
         />
         <input
           id="tel"
@@ -89,6 +94,7 @@ export default function FormContactIsland(
           placeholder="Conte como podemos ajudá-lo!"
           className="bg-white-gray outline-primary rounded-md h-36 w-full placeholder:text-black placeholder:text-sm py-2 pl-4"
           onChange={(e) => setMessage(e.target.value)}
+          required
         >
         </textarea>
         {
@@ -107,8 +113,8 @@ export default function FormContactIsland(
       </button>*/
         }
 
-        <button
-          onClick={handleSubmit}
+        <input
+          type="submit"
           className="btn relative mt-4 lg:mt-16 group transition-all inline-flex items-center justify-start overflow-hidden bg-primary hover:bg-primary text-white py-3 px-8 lg:px-11 min-w-24 rounded-full font-bold"
         >
           <span className="w-60 h-48 rounded bg-third-blue absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 mr-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0">
@@ -122,7 +128,7 @@ export default function FormContactIsland(
               className="w-4 h-4"
             />
           </span>
-        </button>
+        </input>
       </form>
     );
   }
