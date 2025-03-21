@@ -37,7 +37,6 @@
           "link": "https://docs.google.com/forms/d/e/1FAIpQLSfmln-8srXWNT1-_ggFE3f7-eG-822as8MRMpVvA7cFICHnyw/viewform"
         }
       ],
-      "headerText": "Revolucione o seu negócio através da",
       "principalWord": "tecnologia",
       "buttonsText": "Desenvolvemos soluções personalizadas para impulsionar sua empresa rumo ao sucesso!",
       "contactButton": {
@@ -47,7 +46,8 @@
       "consultancyButton": {
         "text": "Quero uma consultoria",
         "link": "#consultoria"
-      }
+      },
+      "headerText": "Revolucione o seu negócio através da"
     },
     {
       "__resolveType": "site/sections/Services.tsx",
@@ -65,18 +65,18 @@
           "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/319bc240-c29d-40cf-ac28-ca628370011a/Vector-(1).png"
         },
         {
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/9e3d3fa4-fa75-4c28-980f-784bcb2a3962/Vector.png",
           "title": "Banco de Dados",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/9e3d3fa4-fa75-4c28-980f-784bcb2a3962/Vector.png",
           "description": "Gestão eficiente de dados para garantir segurança, integridade e disponibilidade das informações."
         },
         {
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/44d4985b-f7be-452d-84b9-ebaba166fa85/Vector-(1).png",
           "title": "Outsourcing",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/44d4985b-f7be-452d-84b9-ebaba166fa85/Vector-(1).png",
           "description": "Amplie a sua equipe com profissionais qualificados, focados em entregar resultados de alto desempenho."
         },
         {
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/017b4e05-1dae-48ab-a89a-cab23cc2fa2c/Vector.png",
           "title": "QA/Automação",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/017b4e05-1dae-48ab-a89a-cab23cc2fa2c/Vector.png",
           "description": "Testes de qualidade rigorosos e automação de processos para garantir a excelência dos seus produtos."
         },
         {
@@ -109,6 +109,7 @@
       "description": "A expertise da nossa equipe em diversas tecnologias. Em nossa empresa, nos destacamos na criação de projetos de alto impacto utilizando as seguintes linguagens e frameworks.",
       "cards": [
         {
+          "title": "Front End",
           "images": [
             {
               "0": "h",
@@ -590,10 +591,10 @@
               "112": "g",
               "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/ce6a1ff7-cb4a-4281-91c8-4c7d689bed2c/angular-1.png"
             }
-          ],
-          "title": "Front End"
+          ]
         },
         {
+          "title": "Back end",
           "images": [
             {
               "0": "h",
@@ -1321,10 +1322,10 @@
               "width": 47,
               "height": 52
             }
-          ],
-          "title": "Back end"
+          ]
         },
         {
+          "title": "Devops",
           "images": [
             {
               "0": "h",
@@ -1937,10 +1938,10 @@
               "width": 115,
               "height": 24
             }
-          ],
-          "title": "Devops"
+          ]
         },
         {
+          "title": "Mobile",
           "images": [
             {
               "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/13ba0f9b-e881-495d-95ff-5ad5f8884ba9/react-native-1.png",
@@ -1960,10 +1961,10 @@
               "height": 25,
               "alt": "Kotlin Logo"
             }
-          ],
-          "title": "Mobile"
+          ]
         },
         {
+          "title": "Banco de Dados",
           "images": [
             {
               "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/552543da-b490-43b8-a3bb-81ec4e4c3057/mongodb-1.png",
@@ -1977,8 +1978,7 @@
               "height": 38,
               "alt": "SQL Logo"
             }
-          ],
-          "title": "Banco de Dados"
+          ]
         }
       ]
     },
@@ -2444,7 +2444,7 @@
         "alt": "Whatsapp Icon",
         "width": 21,
         "height": 21,
-        "link": "https://api.whatsapp.com/send?phone=5514981667525&text=Ol%C3%A1%21%20Gostaria%20de%20conversar%20sobre%20os%20produtos%20da%20Simbiose."
+        "link": "https://api.whatsapp.com/send?phone=5531984853252&text=Gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20oferecidos%20pela%20Simbiose%20Ventures."
       },
       "emailIcon": {
         "0": "h",
