@@ -5,6 +5,7 @@
 import * as $_app from "./routes/_app.tsx";
 import * as $Carousel from "./islands/Carousel.tsx";
 import * as $CopyButton from "./islands/CopyButton.tsx";
+import * as $CoreValuesIsland from "./islands/CoreValuesIsland.tsx";
 import * as $FloatingButtonIsland from "./islands/FloatingButtonIsland.tsx";
 import * as $FormContact from "./islands/FormContact.tsx";
 import * as $MenuIcon from "./islands/MenuIcon.tsx";
@@ -18,6 +19,7 @@ const manifest = {
   islands: {
     "./islands/Carousel.tsx": $Carousel,
     "./islands/CopyButton.tsx": $CopyButton,
+    "./islands/CoreValuesIsland.tsx": $CoreValuesIsland,
     "./islands/FloatingButtonIsland.tsx": $FloatingButtonIsland,
     "./islands/FormContact.tsx": $FormContact,
     "./islands/MenuIcon.tsx": $MenuIcon,
