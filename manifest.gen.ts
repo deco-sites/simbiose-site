@@ -9,15 +9,16 @@ import * as $$$0 from "./loaders/sendgrid/sendgridConfig.ts";
 import * as $$$$$$0 from "./sections/Advantages.tsx";
 import * as $$$$$$1 from "./sections/Consultancy.tsx";
 import * as $$$$$$2 from "./sections/Contact.tsx";
-import * as $$$$$$3 from "./sections/FloatingButton.tsx";
-import * as $$$$$$4 from "./sections/Footer.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/OurHistory.tsx";
-import * as $$$$$$7 from "./sections/Partnerships.tsx";
-import * as $$$$$$8 from "./sections/Services.tsx";
-import * as $$$$$$9 from "./sections/Technologies.tsx";
-import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$11 from "./sections/WhatSayAboutUs.tsx";
+import * as $$$$$$3 from "./sections/CoreValues.tsx";
+import * as $$$$$$4 from "./sections/FloatingButton.tsx";
+import * as $$$$$$5 from "./sections/Footer.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$7 from "./sections/OurHistory.tsx";
+import * as $$$$$$8 from "./sections/Partnerships.tsx";
+import * as $$$$$$9 from "./sections/Services.tsx";
+import * as $$$$$$10 from "./sections/Technologies.tsx";
+import * as $$$$$$11 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$12 from "./sections/WhatSayAboutUs.tsx";
 
 const manifest = {
   "loaders": {
@@ -27,15 +28,16 @@ const manifest = {
     "site/sections/Advantages.tsx": $$$$$$0,
     "site/sections/Consultancy.tsx": $$$$$$1,
     "site/sections/Contact.tsx": $$$$$$2,
-    "site/sections/FloatingButton.tsx": $$$$$$3,
-    "site/sections/Footer.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/OurHistory.tsx": $$$$$$6,
-    "site/sections/Partnerships.tsx": $$$$$$7,
-    "site/sections/Services.tsx": $$$$$$8,
-    "site/sections/Technologies.tsx": $$$$$$9,
-    "site/sections/Theme/Theme.tsx": $$$$$$10,
-    "site/sections/WhatSayAboutUs.tsx": $$$$$$11,
+    "site/sections/CoreValues.tsx": $$$$$$3,
+    "site/sections/FloatingButton.tsx": $$$$$$4,
+    "site/sections/Footer.tsx": $$$$$$5,
+    "site/sections/Header.tsx": $$$$$$6,
+    "site/sections/OurHistory.tsx": $$$$$$7,
+    "site/sections/Partnerships.tsx": $$$$$$8,
+    "site/sections/Services.tsx": $$$$$$9,
+    "site/sections/Technologies.tsx": $$$$$$10,
+    "site/sections/Theme/Theme.tsx": $$$$$$11,
+    "site/sections/WhatSayAboutUs.tsx": $$$$$$12,
   },
   "actions": {
     "site/actions/sendEmail.ts": $$$$$$$$$0,

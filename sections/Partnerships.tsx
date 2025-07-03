@@ -19,7 +19,8 @@ export default function Partnerships(
   { title, description, partnersLogos }: PartnershipsProps,
 ) {
   return (
-    <>
+    <div className="relative -mt-[2px]">
+      <div className="absolute top-0 left-0 w-full h-24 bg-blue-300"></div>
       <div
         className="bg-primary text-white py-32"
         style={{
@@ -46,6 +47,6 @@ export default function Partnerships(
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

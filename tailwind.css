@@ -111,5 +111,40 @@
     transition: filter 0.3s ease;
   }
 
-  
+  @keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-324px);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-324px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.slide-left {
+    animation: slideLeft 0.5s forwards;
+}
+
+.slide-right {
+    animation: slideRight 0.5s forwards;
+}
+
+.control-buttons {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.control-buttons-hidden {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 }

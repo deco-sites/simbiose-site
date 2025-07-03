@@ -76,7 +76,12 @@ export default function Header(
 
           <nav className="hidden lg:flex gap-14">
             {navOptions.map((item) => (
-              <a href={item.link}>
+              <a
+                href={item.link}
+                target={item.text.toLowerCase() === "trabalhe conosco"
+                  ? "_blank"
+                  : ""}
+              >
                 <p class="group relative w-fit">
                   <span>{item.text}</span>
                   <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-0.5 bg-third-blue group-hover:w-3/6">

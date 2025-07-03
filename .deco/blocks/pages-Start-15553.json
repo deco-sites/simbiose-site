@@ -2055,6 +2055,54 @@
       ]
     },
     {
+      "__resolveType": "site/sections/CoreValues.tsx",
+      "device": "desktop",
+      "values": [
+        {
+          "title": "Compromisso com o Cliente",
+          "text": "<p>Colocamos o cliente no centro, com empatia e escuta ativa, visando construir relacionamentos duradouros. Buscamos superar expectativas criando soluções que geram valor real.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/64a15f77-ff00-42f6-bda2-4c3985fd0021/customer-commitment.png",
+          "id": 1
+        },
+        {
+          "title": "Qualidade",
+          "text": "<p>Entregamos com excelência, cuidando de cada detalhe como se fosse único. Acreditamos que a qualidade é o que diferencia um bom trabalho de um trabalho memorável.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/e68e8c0c-5872-49d9-a425-9faf44dd778c/quality.png",
+          "id": 2
+        },
+        {
+          "title": "Transparência ",
+          "text": "<p>Agimos com clareza e honestidade, mantendo um diálogo aberto que fortalece a confiança com clientes, parceiros e time.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/415c0472-28b3-4cd9-b646-b08546d76e7c/transparency.png",
+          "id": 3
+        },
+        {
+          "title": "Agilidade e Eficiência",
+          "text": "<p>Valorizamos o tempo e os recursos de todos. Atuamos com foco, organização e prontidão, buscando soluções rápidas sem abrir mão da qualidade. </p>",
+          "icon": "https://assets.decocache.com/simbiose-site/e1cb2a7d-188d-4a24-95ed-2129198eff67/agility-and-efficiency.png",
+          "id": 4
+        },
+        {
+          "title": "Autonomia com Responsabilidade",
+          "text": "<p>Confiamos nas pessoas e valorizamos a liberdade de agir, sempre com responsabilidade e foco no impacto coletivo.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/6c073306-2bbe-462f-8907-6ce245d0fd67/autonomy-with-responsibility.png",
+          "id": 5
+        },
+        {
+          "title": "Evolução Contínua",
+          "text": "<p>Acreditamos na evolução contínua, nos adaptamos às mudanças e investimos no crescimento pessoal e profissional.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/63afcb01-a242-43cd-9524-cc459104e152/continuous-evolution.png",
+          "id": 6
+        },
+        {
+          "title": "Colaboração",
+          "text": "<p>Incentivamos o trabalho em equipe, o compartilhamento de ideias, talentos e o apoio mútuo. Construímos ambientes onde todos têm voz e onde o sucesso é coletivo.</p>",
+          "icon": "https://assets.decocache.com/simbiose-site/6e7d46b6-363d-489e-8ee1-f542c759b02f/collaboration.png",
+          "id": 7
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Partnerships.tsx",
       "title": "Parcerias de sucesso",
       "description": "Conheça alguns dos clientes que impulsionaram seus negócios com a Simbiose",
