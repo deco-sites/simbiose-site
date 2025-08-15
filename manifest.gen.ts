@@ -5,7 +5,7 @@
 import * as $$$$$$$$$0 from "./actions/sendEmail.ts";
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
-import * as $$$0 from "./loaders/sendgrid/sendgridConfig.ts";
+import * as $$$0 from "./loaders/mailerSendConfig.ts";
 import * as $$$$$$0 from "./sections/Advantages.tsx";
 import * as $$$$$$1 from "./sections/Consultancy.tsx";
 import * as $$$$$$2 from "./sections/Contact.tsx";
@@ -22,7 +22,7 @@ import * as $$$$$$12 from "./sections/WhatSayAboutUs.tsx";
 
 const manifest = {
   "loaders": {
-    "site/loaders/sendgrid/sendgridConfig.ts": $$$0,
+    "site/loaders/mailerSendConfig.ts": $$$0,
   },
   "sections": {
     "site/sections/Advantages.tsx": $$$$$$0,

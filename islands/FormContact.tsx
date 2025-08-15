@@ -45,9 +45,9 @@ export default function FormContactIsland(
 
   const sendData = `
         Nome: ${name}
-        E-mail: ${filledEmail}
-        Telefone: ${filledTel}
-        Mensagem: ${message}
+E-mail: ${filledEmail}
+Telefone: ${filledTel}
+Mensagem: ${message}
     `;
 
   if (emailSent) {

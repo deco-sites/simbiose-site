@@ -59,12 +59,14 @@
   "flavor": {
     "framework": "fresh"
   },
-  "sendgrid": {
-    "__resolveType": "site/loaders/sendgrid/sendgridConfig.ts",
-    "sendgridApiKey": {
+  "whilelistURLs": [],
+  "whitelistPatterns": [],
+  "MailerSendKey": {
+    "__resolveType": "site/loaders/mailerSendConfig.ts",
+    "mailerSendApiKey": {
       "__resolveType": "website/loaders/secret.ts",
-      "name": "SENDGRID_API_KEY",
-      "encrypted": "5e28191e23b9d4a3f86070778b507a9d2f23aeb031bee98e5613ac61c8159e84c0dac21ac96c878f8de704a1c6a1d1cef0e39a320c04bb0e45499e84ffb228aa28829c7c3d2f0039d48f3a2054f9d293"
+      "encrypted": "5f3fd5ee0bda16577b08c83eb233b99535487955645464b3cb6830592630852810d6e20ab82b89559bcf07c4b4c051d9a1b033dd023b6fd611085a80210d950289a7cb2324d9ffd6988737a5f390b9fa",
+      "name": "MAILERSEND_API_KEY"
     }
   }
 }

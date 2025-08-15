@@ -11,11 +11,12 @@ export interface Icon {
   height: number;
 }
 
+/* @titleBy link */
 interface SocialMedia {
   icon: Icon;
   link: string;
 }
-
+/* @titleBy email */
 export interface RecipientsEmails {
   email: string;
 }

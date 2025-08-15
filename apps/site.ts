@@ -1,10 +1,10 @@
 import website, { Props } from "apps/website/mod.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";
-import { Sendgrid } from "site/loaders/sendgrid/sendgridConfig.ts";
+import { MailerSendKey } from "site/loaders/mailerSendConfig.ts";
 import { type App, type AppContext as AC } from "@deco/deco";
 type WebsiteApp = ReturnType<typeof website>;
 export interface SiteProps extends Props {
-  sendgrid: Sendgrid;
+  MailerSendKey: MailerSendKey;
 }
 /**
  * @title Site
@@ -13,13 +13,13 @@ export interface SiteProps extends Props {
  * @logo https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1/0ac02239-61e6-4289-8a36-e78c0975bcc8
  */
 export default function Site(
-  { sendgrid, ...state }: SiteProps,
+  { MailerSendKey, ...state }: SiteProps,
 ): App<Manifest, SiteProps, [
   WebsiteApp,
 ]> {
   return {
     state: {
-      sendgrid,
+      MailerSendKey,
       ...state,
     },
     manifest,
