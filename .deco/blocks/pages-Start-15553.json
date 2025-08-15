@@ -2625,16 +2625,9 @@
         },
         {
           "email": "marina.witzel@simbioseventures.com"
-        },
-        {
-          "email": "erick.nascimento@simbioseventures.com"
         }
       ],
-      "CopyToArr": [
-        {
-          "email": "erick.nascim3nto@gmail.com"
-        }
-      ]
+      "CopyToArr": []
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
