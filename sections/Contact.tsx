@@ -21,6 +21,7 @@ export interface RecipientsEmails {
   email: string;
 }
 
+/* @titleBy email */
 export interface CopyEmails {
   email?: string;
 }

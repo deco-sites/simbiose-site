@@ -14,7 +14,7 @@ const sendEmail = async (
   _req: Request,
   ctx: AppContext,
 ) => {
-  const { MailerSendKey } = ctx; // vem do loader MailerSendConfig.ts
+  const { MailerSendKey } = ctx;
 
   if (!MailerSendKey) {
     console.error("MailerSend API key não configurada.");
@@ -29,24 +29,20 @@ const sendEmail = async (
       "Comercial Simbiose",
     );
 
-    const recipients = props.RecipientsEmailsArr.map(
+    const toRecipients = props.RecipientsEmailsArr.map(
       (emailObj) => new Recipient(emailObj.email),
     );
 
+    const ccRecipients = props.CopyToArr?.map(
+      (emailObj) => new Recipient(emailObj.email),
+    ) || [];
+
     const emailParams = new EmailParams()
       .setFrom(sentFrom)
-      .setTo(recipients)
+      .setTo(toRecipients)
+      .setCc(ccRecipients)
       .setSubject(props.subject)
-      .setText(
-        `${props.data}`,
-      );
-
-    // Adiciona cópia se existir
-    if (props.CopyToArr && props.CopyToArr.length > 0) {
-      emailParams.setCc(
-        props.CopyToArr.map((emailObj) => new Recipient(emailObj.email)),
-      );
-    }
+      .setText(props.data);
 
     const res = await mailerSend.email.send(emailParams);
     console.log("E-mail enviado com sucesso", res.body);
