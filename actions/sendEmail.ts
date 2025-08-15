@@ -1,15 +1,9 @@
 import { AppContext } from "site/apps/site.ts";
 import { CopyEmails, RecipientsEmails } from "site/sections/Contact.tsx";
-
-export interface DataProps {
-  name: string;
-  email: string;
-  tel: string;
-  message: string;
-}
+import { EmailParams, MailerSend, Recipient, Sender } from "mailersend";
 
 export interface Props {
-  data: DataProps;
+  data: string;
   RecipientsEmailsArr: RecipientsEmails[];
   CopyToArr?: CopyEmails[];
   subject: string;
@@ -17,58 +11,47 @@ export interface Props {
 
 const sendEmail = async (
   props: Props,
-  req: Request,
+  _req: Request,
   ctx: AppContext,
 ) => {
-  const { sendgrid } = ctx;
-  console.log("Chamou a sendEmail");
-  const msg = {
-    "personalizations": [
-      {
-        "to": props.RecipientsEmailsArr.map((emailObj) => ({
-          email: emailObj.email,
-        })),
+  const { MailerSendKey } = ctx; // vem do loader MailerSendConfig.ts
 
-        // Adiciona "cc" apenas se props.CopyToArr existir e não for vazio
-        ...(props.CopyToArr && props.CopyToArr.length > 0
-          ? {
-            "cc": props.CopyToArr.map((emailObj) => ({
-              email: emailObj.email,
-            })),
-          }
-          : {}),
-      },
-    ],
-    "subject": props.subject,
-    "from": {
-      "email": "comercial@simbioseventures.com",
-    },
-    "content": [
-      {
-        "type": "text/plain",
-        "value": props.data,
-      },
-    ],
-  };
+  if (!MailerSendKey) {
+    console.error("MailerSend API key não configurada.");
+    return;
+  }
 
   try {
-    const response = await fetch("https://api.sendgrid.com/v3/mail/send", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Authorization": `Bearer ${sendgrid}`,
-      },
-      body: JSON.stringify(msg),
-    });
+    const mailerSend = new MailerSend({ apiKey: MailerSendKey });
 
-    if (response.ok) {
-      //console.log("Email sent successfully");
-    } else {
-      const errorData = await response.json();
-      console.error("SendGrid API error:", errorData);
+    const sentFrom = new Sender(
+      "comercial@simbioseventures.com",
+      "Comercial Simbiose",
+    );
+
+    const recipients = props.RecipientsEmailsArr.map(
+      (emailObj) => new Recipient(emailObj.email),
+    );
+
+    const emailParams = new EmailParams()
+      .setFrom(sentFrom)
+      .setTo(recipients)
+      .setSubject(props.subject)
+      .setText(
+        `${props.data}`,
+      );
+
+    // Adiciona cópia se existir
+    if (props.CopyToArr && props.CopyToArr.length > 0) {
+      emailParams.setCc(
+        props.CopyToArr.map((emailObj) => new Recipient(emailObj.email)),
+      );
     }
+
+    const res = await mailerSend.email.send(emailParams);
+    console.log("E-mail enviado com sucesso", res.body);
   } catch (error) {
-    console.error("Error sending email:", error);
+    console.error("Erro ao enviar e-mail com MailerSend:", error);
   }
 };
 
