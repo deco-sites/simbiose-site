@@ -5,16 +5,16 @@
     {
       "__resolveType": "site/sections/Header.tsx",
       "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1317330d-57b8-4628-895b-05e94fdba44a/simbiose_logo.png",
+        "src": "https://decoims.com/simbiose-site/7c24b8c8-dc47-4677-9db4-dbd6211b6073/1317330d_1317330d-57b8-4628-895b-05e94fdba44a.png",
         "alt": "Simbiose Logo",
         "width": 180,
         "desktop": {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1317330d-57b8-4628-895b-05e94fdba44a/simbiose_logo.png",
+          "src": "https://decoims.com/simbiose-site/7c24b8c8-dc47-4677-9db4-dbd6211b6073/1317330d_1317330d-57b8-4628-895b-05e94fdba44a.png",
           "width": 200,
           "height": 34
         },
         "mobile": {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/7f97f1ae-0550-439d-a71d-a13564d97ee9/Logo_branca2.png",
+          "src": "https://decoims.com/simbiose-site/cd652737-4e5a-491e-bb1b-f0796c8a0254/7f97f1ae_7f97f1ae-0550-439d-a71d-a13564d97ee9.png",
           "width": 31,
           "height": 31
         }
@@ -57,7 +57,7 @@
         {
           "title": "Integração",
           "description": "Integramos sistemas para maior conectividade e promovemos uma cultura de inovação, que impacta positivamente a rotina de seu negócio.",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/a2d841e9-6e66-49fb-a463-e0edc8b86562/Vector.png"
+          "icon": "https://decoims.com/simbiose-site/a1a501fb-4834-46b6-a7b0-2513b967d22b/a2d841e9_a2d841e9-6e66-49fb-a463-e0edc8b86562.png"
         },
         {
           "title": "Desenvolvimento",
@@ -66,7 +66,7 @@
         },
         {
           "title": "Banco de Dados",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/9e3d3fa4-fa75-4c28-980f-784bcb2a3962/Vector.png",
+          "icon": "https://decoims.com/simbiose-site/861f7ec6-2f56-476f-a6a1-6c5e35f1eb38/9e3d3fa4_9e3d3fa4-fa75-4c28-980f-784bcb2a3962.png",
           "description": "Gestão eficiente de dados para garantir segurança, integridade e disponibilidade das informações."
         },
         {
@@ -76,7 +76,7 @@
         },
         {
           "title": "QA/Automação",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/017b4e05-1dae-48ab-a89a-cab23cc2fa2c/Vector.png",
+          "icon": "https://decoims.com/simbiose-site/539d0a8b-3d28-41db-8c3d-77b6b6aadb6a/017b4e05_017b4e05-1dae-48ab-a89a-cab23cc2fa2c.png",
           "description": "Testes de qualidade rigorosos e automação de processos para garantir a excelência dos seus produtos."
         },
         {
@@ -87,17 +87,17 @@
         {
           "title": "Manutenção de Sistemas Legados",
           "description": " Modernizamos funcionalidades e garantimos desempenho sem comprometer a base que sustenta o seu negócio.",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/ae62a843-253c-41e8-8da7-ef213069c5ef/legacy-system.png"
+          "icon": "https://decoims.com/simbiose-site/4473152f-b038-443a-b752-9d28c5b3397d/ae62a843_ae62a843-253c-41e8-8da7-ef213069c5ef.png"
         },
         {
           "title": "Soluções de IA",
           "description": "Implemente soluções inteligentes como chatbots baseados no ChatGPT e outras tecnologias de IA para melhorar a experiência do cliente.",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/6a094fb8-9abb-4cc8-ab97-132948204a62/bot.png"
+          "icon": "https://decoims.com/simbiose-site/2a96053c-df7d-41ba-812d-cc11af96e675/6a094fb8_6a094fb8-9abb-4cc8-ab97-132948204a62.png"
         }
       ],
       "actionCard": {
         "title": "Quero contratar agora!",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/b207d060-9408-4438-bb63-7d48aef932f1/image-24-1.png"
+        "image": "https://decoims.com/simbiose-site/82b09f0e-d726-4f6f-8e72-2056c5d90739/b207d060_b207d060-9408-4438-bb63-7d48aef932f1.png"
       },
       "CTA": {
         "buttonText": "Contratar"
@@ -227,7 +227,7 @@
               "112": "p",
               "113": "n",
               "114": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/23e20a99-7d0e-4be5-bb06-c2727150c92a/react-1.png",
+              "image": "https://decoims.com/simbiose-site/5846dd96-65fd-4c88-accf-a66e86fe43b9/23e20a99_23e20a99-7d0e-4be5-bb06-c2727150c92a.png",
               "width": 130,
               "height": 44,
               "alt": "React Logo"
@@ -350,7 +350,7 @@
               "114": "p",
               "115": "n",
               "116": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/db746a72-1deb-4f40-ae33-752d02573da0/next-2.png",
+              "image": "https://decoims.com/simbiose-site/e711fa52-7c49-4d50-90d3-0b15299b2c89/db746a72_db746a72-1deb-4f40-ae33-752d02573da0.png",
               "width": 92,
               "height": 51,
               "alt": "NextJs Logo"
@@ -470,7 +470,7 @@
               "111": "p",
               "112": "n",
               "113": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/d299aa1e-6756-4a0f-80cb-b06004fbbf92/vue-1.png",
+              "image": "https://decoims.com/simbiose-site/8e4a8275-e367-4dbf-ac5e-fc8b47c0911b/d299aa1e_d299aa1e-6756-4a0f-80cb-b06004fbbf92.png",
               "width": 115,
               "height": 49,
               "alt": "VueJs Logo"
@@ -589,7 +589,7 @@
               "110": "p",
               "111": "n",
               "112": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/ce6a1ff7-cb4a-4281-91c8-4c7d689bed2c/angular-1.png"
+              "image": "https://decoims.com/simbiose-site/53d796f4-e78b-4d47-a032-2c405223dafd/ce6a1ff7_ce6a1ff7-cb4a-4281-91c8-4c7d689bed2c.png"
             }
           ]
         },
@@ -713,7 +713,7 @@
               "113": "p",
               "114": "n",
               "115": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/5c222e3a-ae2e-4f34-9600-f4efb9e9a213/python-1.png",
+              "image": "https://decoims.com/simbiose-site/77029b1a-4c57-4871-a9b0-3f1cc30f40a3/5c222e3a_5c222e3a-ae2e-4f34-9600-f4efb9e9a213.png",
               "width": 132,
               "height": 39,
               "alt": "Python Logo"
@@ -835,7 +835,7 @@
               "113": "p",
               "114": "n",
               "115": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/84763ee7-96d8-4ef0-955c-a49877a56737/java-1.png",
+              "image": "https://decoims.com/simbiose-site/abcec889-7bbb-4eff-8c5c-fe323ab32626/84763ee7_84763ee7-96d8-4ef0-955c-a49877a56737.png",
               "alt": "Java Logo",
               "width": 104,
               "height": 59
@@ -955,7 +955,7 @@
               "111": "p",
               "112": "n",
               "113": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/753932bf-418c-49bd-98c3-d663c9a86a2e/ruby-1.png",
+              "image": "https://decoims.com/simbiose-site/a3d7cc89-3a21-498f-911c-2c6227164273/753932bf_753932bf-418c-49bd-98c3-d663c9a86a2e.png",
               "alt": "Rails Logo",
               "width": 98,
               "height": 36
@@ -1075,7 +1075,7 @@
               "111": "p",
               "112": "n",
               "113": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/bed22fcf-5bb9-4f9b-85c1-f5086e0aa8ba/node-1.png",
+              "image": "https://decoims.com/simbiose-site/b9e828e7-d19e-41f9-94b6-10986cd0bcd8/bed22fcf_bed22fcf-5bb9-4f9b-85c1-f5086e0aa8ba.png",
               "width": 107,
               "height": 43,
               "alt": "NodeJs Logo"
@@ -1195,7 +1195,7 @@
               "111": "p",
               "112": "n",
               "113": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/ffdd6fbc-296f-4017-abb0-74a84b78c7e4/dotnet-1.png",
+              "image": "https://decoims.com/simbiose-site/fd310f13-03e8-4526-9d71-52b98a08a8eb/ffdd6fbc_ffdd6fbc-296f-4017-abb0-74a84b78c7e4.png",
               "width": 102,
               "height": 35,
               "alt": ".Net Logo"
@@ -1317,7 +1317,7 @@
               "113": "p",
               "114": "n",
               "115": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/47ed5aa4-a87c-4299-b709-bfe62e7b0aa9/csharp-1.png",
+              "image": "https://decoims.com/simbiose-site/e5196d67-d777-4a18-9c06-5c527a994e09/47ed5aa4_47ed5aa4-a87c-4299-b709-bfe62e7b0aa9.png",
               "alt": "C++ Logo",
               "width": 47,
               "height": 52
@@ -1443,7 +1443,7 @@
               "112": "p",
               "113": "n",
               "114": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/18b8143c-7471-401c-b431-0ddde302f914/aws-1.png",
+              "image": "https://decoims.com/simbiose-site/d43262e0-5762-4b31-953e-73772a06701e/18b8143c_18b8143c-7471-401c-b431-0ddde302f914.png",
               "alt": "AWS Logo",
               "width": 66,
               "height": 40
@@ -1565,7 +1565,7 @@
               "113": "p",
               "114": "n",
               "115": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/4f9d6076-b006-40d8-a1af-39aec23b1352/cloudflare-1.png",
+              "image": "https://decoims.com/simbiose-site/b964e528-5a56-41b6-ab68-a1ffcdd713e7/4f9d6076_4f9d6076-b006-40d8-a1af-39aec23b1352.png",
               "alt": "CloudFlare Logo",
               "width": 118,
               "height": 39
@@ -1688,7 +1688,7 @@
               "114": "p",
               "115": "n",
               "116": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/84ec2c8b-fa5e-49b9-a742-82cdba43775a/ansible-1.png",
+              "image": "https://decoims.com/simbiose-site/5feebb25-695d-4df8-bf76-b466c163504e/84ec2c8b_84ec2c8b-fa5e-49b9-a742-82cdba43775a.png",
               "alt": "Ansible Logo",
               "width": 144,
               "height": 96
@@ -1814,7 +1814,7 @@
               "117": "p",
               "118": "n",
               "119": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/65191f42-734f-4ec2-8621-2e033cdb4940/docker-1.png",
+              "image": "https://decoims.com/simbiose-site/9d14fca6-b31e-41b5-84fb-b3f140b51adf/65191f42_65191f42-734f-4ec2-8621-2e033cdb4940.png",
               "alt": "Docker Logo",
               "width": 125,
               "height": 70
@@ -1933,7 +1933,7 @@
               "110": "p",
               "111": "n",
               "112": "g",
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/fa3b9e07-3af3-4a0d-95d8-2dc99348a968/ngnix-1.png",
+              "image": "https://decoims.com/simbiose-site/4d1eb047-a785-40f3-8b21-918247f262c7/fa3b9e07_fa3b9e07-3af3-4a0d-95d8-2dc99348a968.png",
               "alt": "NGINX Logo",
               "width": 115,
               "height": 24
@@ -1944,19 +1944,19 @@
           "title": "Mobile",
           "images": [
             {
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/13ba0f9b-e881-495d-95ff-5ad5f8884ba9/react-native-1.png",
+              "image": "https://decoims.com/simbiose-site/0fc60729-79f4-4f71-835d-3b7d3bbc9474/13ba0f9b_13ba0f9b-e881-495d-95ff-5ad5f8884ba9.png",
               "width": 156,
               "height": 26,
               "alt": "React Native Logo"
             },
             {
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1c832026-eca8-4786-b096-ce00b4f4422a/flutter-1.png",
+              "image": "https://decoims.com/simbiose-site/a7add71d-02a1-47e6-9478-54dc8999c45c/1c832026_1c832026-eca8-4786-b096-ce00b4f4422a.png",
               "width": 113,
               "height": 32,
               "alt": "Flutter Logo"
             },
             {
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/4a1a036f-6423-4e3e-88f1-3750a7464aa9/kotlin-1.png",
+              "image": "https://decoims.com/simbiose-site/a0a597d4-6230-4461-96ad-3d72ea48f271/4a1a036f_4a1a036f-6423-4e3e-88f1-3750a7464aa9.png",
               "width": 112,
               "height": 25,
               "alt": "Kotlin Logo"
@@ -1967,13 +1967,13 @@
           "title": "Banco de Dados",
           "images": [
             {
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/552543da-b490-43b8-a3bb-81ec4e4c3057/mongodb-1.png",
+              "image": "https://decoims.com/simbiose-site/9621f15b-8394-4d1e-b491-f1bffea796d3/552543da_552543da-b490-43b8-a3bb-81ec4e4c3057.png",
               "alt": "MongoDB Logo",
               "width": 166,
               "height": 44
             },
             {
-              "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/77709745-4847-45c7-b720-c6425038c714/sql-1.png",
+              "image": "https://decoims.com/simbiose-site/d6c79690-cc1d-4ce0-896c-78f73ee17a18/77709745_77709745-4847-45c7-b720-c6425038c714.png",
               "width": 116,
               "height": 38,
               "alt": "SQL Logo"
@@ -1990,20 +1990,20 @@
         {
           "title": "Experiência comprovada",
           "description": "São mais de 25 anos entregando soluções tecnológicas inovadoras para clientes de diversos setores.",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/bd8dc0f8-91b3-4ddc-b780-3573b96db8a2/experience-1.png"
+          "image": "https://decoims.com/simbiose-site/776229d0-d389-4381-a43a-237ccb12d2af/bd8dc0f8_bd8dc0f8-91b3-4ddc-b780-3573b96db8a2.png"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1615eea3-d987-4560-b305-51ec2ad675e1/talk-1.png",
+          "image": "https://decoims.com/simbiose-site/9e99ac2b-cb6b-467c-9427-133a5e65a1fe/1615eea3_1615eea3-d987-4560-b305-51ec2ad675e1.png",
           "title": "Consultoria Estratégica",
           "description": "Vamos além de códigos, entendemos seu cenário atual e como a tecnologia pode impulsionar os seus resultados."
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/8b0cffe2-0668-4d72-874b-965e148a0763/guarantee-1.png",
+          "image": "https://decoims.com/simbiose-site/9fd79df9-4e09-4f27-8efc-8c8e558fa2c2/8b0cffe2_8b0cffe2-0668-4d72-874b-965e148a0763.png",
           "title": "Entrega Garantida",
           "description": "Prazos cumpridos e qualidade assegurada em cada projeto."
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/c509b7f8-8435-4e2d-bc0b-fd67e60cc177/rating-1.png",
+          "image": "https://decoims.com/simbiose-site/bde93d3f-8055-488c-b3f6-1db666ab23c9/c509b7f8_c509b7f8-8435-4e2d-bc0b-fd67e60cc177.png",
           "title": "Equipe Experiente",
           "description": "Equipe experiente e alocada de acordo com a demanda de cada projeto, que sempre conta com um Project Manager para gerenciar as demandas."
         },
@@ -2013,17 +2013,17 @@
           "description": "Criamos o seu sistema do zero, 100% personalizado para as necessidades da sua empresa."
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/902b9b7d-174f-488b-b3fa-494493ef86d6/scrum-1.png",
+          "image": "https://decoims.com/simbiose-site/42654834-6367-41cb-95c1-1a68612254e5/902b9b7d_902b9b7d-174f-488b-b3fa-494493ef86d6.png",
           "title": "Metodologias ágeis",
           "description": "Utilizamos as principais metodologias ágeis para entregar seu projeto em tempo recorde sem comprometer a qualidade da entrega."
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/dd41a6a3-ae90-49c7-b9cf-761159a6c9ca/prototype-1.png",
+          "image": "https://decoims.com/simbiose-site/9291f68b-00cd-413a-8612-bbecceed5ae3/dd41a6a3_dd41a6a3-ae90-49c7-b9cf-761159a6c9ca.png",
           "title": "Prototipagem",
           "description": "Alinhe as expectativas do projeto final, além de possuir as telas para possíveis investidores e reuniões internas."
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/88b0e8d1-0571-4f6a-afa8-743b343c1c1f/tools-1.png",
+          "image": "https://decoims.com/simbiose-site/2a415d07-5a13-42e5-a6a0-b21eb8e58c69/88b0e8d1_88b0e8d1-0571-4f6a-afa8-743b343c1c1f.png",
           "title": "Manutenção",
           "description": "Mantenha seu software atualizado com um pacote de horas de manutenção para futuras atualizações."
         }
@@ -2033,7 +2033,7 @@
       "__resolveType": "site/sections/OurHistory.tsx",
       "title": "Nossa história em números",
       "description": "Conheça um pouco da nossa trajetória e tudo o que já desenvolvemos.",
-      "photo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/b6f23532-5d82-49e8-9ca5-3cb2f5490bc0/image.png",
+      "photo": "https://decoims.com/simbiose-site/2bc7c297-cb45-4c5d-8377-22fa7a5ce4ff/b6f23532_b6f23532-5d82-49e8-9ca5-3cb2f5490bc0.png",
       "statistics": [
         {
           "number": 12,
@@ -2108,61 +2108,61 @@
       "description": "Conheça alguns dos clientes que impulsionaram seus negócios com a Simbiose",
       "partnersLogos": [
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/3ace9372-866a-4a88-a722-2dc0f98c3ad5/image-6.png",
+          "image": "https://decoims.com/simbiose-site/fae91967-7e81-4847-a1b8-5c329e53dfb2/3ace9372_3ace9372-866a-4a88-a722-2dc0f98c3ad5.png",
           "width": 179,
           "height": 59,
           "alt": "Motbot Logo"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/85c89aad-9b23-43ed-b4b4-8857d8324c0e/image-7.png",
+          "image": "https://decoims.com/simbiose-site/9fb7494c-0071-4fc3-8915-4c17a7579d02/85c89aad_85c89aad-9b23-43ed-b4b4-8857d8324c0e.png",
           "width": 154,
           "height": 67,
           "alt": "CPE Logo"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/33873d04-abb5-43fe-be0e-c83ff8bb6b17/image-10.png",
+          "image": "https://decoims.com/simbiose-site/3427a298-0a8e-4222-93c3-5b068faae478/33873d04_33873d04-abb5-43fe-be0e-c83ff8bb6b17.png",
           "width": 146,
           "height": 33,
           "alt": "Layers Logo"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/a9cecfff-284a-4d63-86fc-12f77990b259/image-8.png",
+          "image": "https://decoims.com/simbiose-site/fc8229b2-8277-400a-a4d5-2b17fdc90de6/a9cecfff_a9cecfff-284a-4d63-86fc-12f77990b259.png",
           "alt": "Dremio Logo",
           "width": 154,
           "height": 51
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/c7edd515-c1c8-40bb-9886-cf980cfea03c/image-17.png",
+          "image": "https://decoims.com/simbiose-site/1c227187-dcb8-4112-be24-3517bc7f5ca5/c7edd515_c7edd515-c1c8-40bb-9886-cf980cfea03c.png",
           "alt": "Raiz Educação Logo",
           "width": 106,
           "height": 106
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/9e4a4e6a-35e8-48ea-86e5-6b9160aa3677/image-13.png",
+          "image": "https://decoims.com/simbiose-site/db8a43b8-df78-4fe9-8c1a-8ba18958b428/9e4a4e6a_9e4a4e6a-35e8-48ea-86e5-6b9160aa3677.png",
           "alt": "Brasas Logo",
           "width": 149,
           "height": 119
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/655e9d9d-5b6f-4172-95a5-1218bcc5b99f/image-11.png",
+          "image": "https://decoims.com/simbiose-site/3f4b5bab-3baf-4354-b3fe-4cda56b09f86/655e9d9d_655e9d9d-5b6f-4172-95a5-1218bcc5b99f.png",
           "alt": "Zoom Logo",
           "width": 132,
           "height": 50
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/9eb220ae-937e-4884-9cf5-e3d5475533d1/image-9.png",
+          "image": "https://decoims.com/simbiose-site/395dbdbf-15b2-4dd5-95c0-c588d7030238/9eb220ae_9eb220ae-937e-4884-9cf5-e3d5475533d1.png",
           "alt": "Io Insure Logo",
           "width": 169,
           "height": 49
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/17e4a19d-8601-41f3-8679-acc6a9e35d45/image-12.png",
+          "image": "https://decoims.com/simbiose-site/4d1054a5-6b5a-41f3-814d-22834c484e3d/17e4a19d_17e4a19d-8601-41f3-8679-acc6a9e35d45.png",
           "width": 177,
           "height": 59,
           "alt": "Aurora Saúde Logo"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/627fa8cb-4730-43a9-ac4e-19dacbe01c51/image-18.png",
+          "image": "https://decoims.com/simbiose-site/91ae2a20-d874-4552-807e-245aca41dc11/627fa8cb_627fa8cb-4730-43a9-ac4e-19dacbe01c51.png",
           "alt": "IGF Engenharia Consultiva Logo",
           "width": 80,
           "height": 80
@@ -2207,7 +2207,7 @@
       "socialMedias": [
         {
           "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1da57f7b-cb30-482e-ab7a-4ada0e04fb52/facebook-circular-logo-1.png",
+            "icon": "https://decoims.com/simbiose-site/111c4c57-400c-454b-ba95-371ee0655ba5/1da57f7b_1da57f7b-cb30-482e-ab7a-4ada0e04fb52.png",
             "alt": "Facebook Icon",
             "width": 21,
             "height": 21
@@ -2225,7 +2225,7 @@
         },
         {
           "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e6c87daa-f66c-4697-a36a-aeaaf23b26af/youtube-1.png",
+            "icon": "https://decoims.com/simbiose-site/f712fbdc-adb6-41fb-84dc-caf71192b1cc/e6c87daa_e6c87daa-f66c-4697-a36a-aeaaf23b26af.png",
             "alt": "Youtube Icon",
             "width": 21,
             "height": 21
@@ -2234,7 +2234,7 @@
         },
         {
           "icon": {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1d5c4c4a-d310-46c6-83b9-4ab4abd4ab31/instagram-2.png",
+            "icon": "https://decoims.com/simbiose-site/90dde7a1-01e5-4f5b-b462-04edd2ff980e/1d5c4c4a_1d5c4c4a-d310-46c6-83b9-4ab4abd4ab31.png",
             "alt": "Instagram Icon",
             "width": 21,
             "height": 21
@@ -2484,7 +2484,7 @@
           "115": "p",
           "116": "n",
           "117": "g",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/e0850f22-a668-4b6f-b928-6def592a48a0/whatsapp-2.png",
+          "icon": "https://decoims.com/simbiose-site/3ed26d18-6ba0-4a8c-a365-f510796b69e6/e0850f22_e0850f22-a668-4b6f-b928-6def592a48a0.png",
           "alt": "Whatsapp Icon",
           "width": 21,
           "height": 21
@@ -2609,7 +2609,7 @@
         "111": "p",
         "112": "n",
         "113": "g",
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/4d824fd0-9c94-498f-b250-1ec92f650f1b/copy-1.png",
+        "icon": "https://decoims.com/simbiose-site/0708095f-0639-4710-b6d5-ed3d45928b7d/4d824fd0_4d824fd0-9c94-498f-b250-1ec92f650f1b.png",
         "alt": "Copy Icon",
         "width": 21,
         "height": 21,
@@ -2632,7 +2632,7 @@
     {
       "__resolveType": "site/sections/Footer.tsx",
       "logo": {
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/1317330d-57b8-4628-895b-05e94fdba44a/simbiose_logo.png",
+        "image": "https://decoims.com/simbiose-site/7c24b8c8-dc47-4677-9db4-dbd6211b6073/1317330d_1317330d-57b8-4628-895b-05e94fdba44a.png",
         "alt": "Simbiose Logo",
         "width": 237,
         "height": 41
@@ -2758,7 +2758,7 @@
             "115": "p",
             "116": "n",
             "117": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/274de767-d2d1-4e10-bd77-25c6bdc91698/facebook-2.png",
+            "icon": "https://decoims.com/simbiose-site/d7dc5131-737c-4616-98e5-375708cba8f6/274de767_274de767-d2d1-4e10-bd77-25c6bdc91698.png",
             "alt": "Facebook Icon",
             "width": 21,
             "height": 21
@@ -2885,7 +2885,7 @@
             "115": "p",
             "116": "n",
             "117": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/0b167b8e-4729-4f56-a357-17ede7671633/linkedin-2.png",
+            "icon": "https://decoims.com/simbiose-site/0e857eda-990c-4145-b099-3ec4d35f389a/0b167b8e_0b167b8e-4729-4f56-a357-17ede7671633.png",
             "alt": "Linkedin Icon",
             "width": 21,
             "height": 21
@@ -3013,7 +3013,7 @@
             "116": "p",
             "117": "n",
             "118": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/c9bf4378-344b-4841-9da7-9963d39ca601/instagram-3.png",
+            "icon": "https://decoims.com/simbiose-site/3297dbe1-4b0b-40d0-b468-e88e3ba5cd2d/c9bf4378_c9bf4378-344b-4841-9da7-9963d39ca601.png",
             "alt": "Instagram Icon",
             "width": 21,
             "height": 21
@@ -3136,7 +3136,7 @@
             "111": "p",
             "112": "n",
             "113": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/5fc9b113-4bf9-41fa-9b7c-7562772bbfb6/mail-2.png",
+            "icon": "https://decoims.com/simbiose-site/89e6d814-d6cf-4776-81cb-7cbf17485147/5fc9b113_5fc9b113-4bf9-41fa-9b7c-7562772bbfb6.png",
             "alt": "Email Icon",
             "width": 21,
             "height": 21
@@ -3263,7 +3263,7 @@
             "115": "p",
             "116": "n",
             "117": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/3c91166e-0c74-452a-83a7-c14102011927/whatsapp-3.png",
+            "icon": "https://decoims.com/simbiose-site/77ce3200-90b9-4d0d-a7d8-2ac66cca2f7d/3c91166e_3c91166e-0c74-452a-83a7-c14102011927.png",
             "alt": "Whatsapp Icon",
             "width": 21,
             "height": 21
@@ -3389,7 +3389,7 @@
             "114": "p",
             "115": "n",
             "116": "g",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/simbiose-site/cdbf5518-e483-47ff-ba5b-3e1282ca6268/youtube-2.png",
+            "icon": "https://decoims.com/simbiose-site/d0e9ea0e-8375-48ad-ace0-035aa9ee349b/cdbf5518_cdbf5518-e483-47ff-ba5b-3e1282ca6268.png",
             "alt": "Youtube Icon",
             "width": 21,
             "height": 14
