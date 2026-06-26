@@ -1,7 +1,6 @@
 {
   "seo": {
     "type": "website",
-    "jsonLDs": [],
     "noIndexing": false,
     "description": "Revolucione o seu negócio através da tecnologia!",
     "titleTemplate": "%s | Simbiose Ventures",
@@ -22,7 +21,7 @@
         "width": 50,
         "height": 50
       },
-      "link": "https://api.whatsapp.com/send?phone=5514997737525&text=Gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20oferecidos%20pela%20Simbiose%20Ventures."
+      "link": "https://api.whatsapp.com/send?phone=5531984853252&text=Gostaria%20de%20conversar%20sobre%20os%20servi%C3%A7os%20oferecidos%20pela%20Simbiose%20Ventures."
     },
     {
       "__resolveType": "website/sections/Analytics/Analytics.tsx",
@@ -39,28 +38,19 @@
       "__resolveType": "website/loaders/redirects.ts"
     }
   ],
-  "caching": {
-    "directives": []
-  },
+  "caching": {},
   "__resolveType": "site/apps/site.ts",
   "firstByteThresholdMS": true,
   "theme": {
     "__resolveType": "Neutral"
   },
   "abTesting": {
-    "replaces": [],
-    "includeScriptsToHead": {
-      "includes": []
-    },
-    "includeScriptsToBody": {
-      "includes": []
-    }
+    "includeScriptsToHead": {},
+    "includeScriptsToBody": {}
   },
   "flavor": {
     "framework": "fresh"
   },
-  "whilelistURLs": [],
-  "whitelistPatterns": [],
   "MailerSendKey": {
     "__resolveType": "site/loaders/mailerSendConfig.ts",
     "mailerSendApiKey": {
@@ -68,5 +58,6 @@
       "encrypted": "5b3e55e72568ae3f20cfb725c525fbc883f6eaca2b2a20a4369447baf7f9f69adbd6d2a4dafadbc8c85a985fa2ea71c85cf02ffa05250c224e53bd15bc42d48d3fea663a554352d37d42422033d3425c",
       "name": "MAILERSEND_API_KEY"
     }
-  }
+  },
+  "defaultImageQuality": "low"
 }
